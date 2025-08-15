@@ -1,0 +1,48 @@
+
+.container{
+    width: 1000px;
+    height: 600px;
+    /* border:solid; */
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;/*space-betweencenter; flex-end;*/
+    align-items:flex-start;/*center flex-end;*/
+    /* flex-direction:column-reverse ; */
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+
+
+}
+
+.red,
+.green,
+.blue,
+.yellow,
+.purple{
+    width: 200px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    flex-shrink: 3;
+    /* flex-grow: 2; */
+    order: 2;
+}
+.green{
+    background-color: green;
+    /* flex-grow: 3; */
+}
+.blue{
+    background-color: blue;
+    /* flex-grow: 2; */
+}
+.yellow{
+    background-color: yellow;
+    order:1;
+    /* flex-grow: 2; */
+}
+.purple{
+    background-color: purple;
+    order:-1
+    /* flex-grow: 1; */
+}
